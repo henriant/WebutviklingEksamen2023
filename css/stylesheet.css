@@ -1,5 +1,29 @@
 
 
+/* Felles */ 
 .hidden{
     display: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "header" "main" "footer";
+}
+
+
+
+/* index.html */
+
+
+/* about.html */
+
+
+/* portfolio.html */
+
+
+
+/* Media queries */
+@media only screen and (min-width: 850px) {
 }
