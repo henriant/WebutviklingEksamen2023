@@ -1,4 +1,4 @@
 Jeg har valgt å gå for karakteren B, da dette er noe jeg tror jeg klarer med hardt arbeid.
 
 Dokumentasjon benyttet under arbeidet med eksamen:
-- GitHub-repository "WEBUTVIKLING2023" som inneholder kode fra undervisningen dette semesteret.
+- GitHub-repository "WEBUTVIKLING2023" som inneholder kode fra undervisningen dette semesteret. (https://github.com/HIO-Webutvikling/WEBUTVIKLING2023)
