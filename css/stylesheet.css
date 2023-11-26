@@ -12,6 +12,46 @@
     grid-template-areas: "header" "main" "footer";
 }
 
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+#bottom-banner{
+    background-color: #252525;
+}
+
+#bottom-banner h4{
+    color: #fff;
+}
+
+#bottom-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+body div header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-icons{
+    color: #fff;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+.social-media-icons:visited{
+    color: #fff;
+    text-decoration: none;
+}
 
 
 /* index.html */
@@ -19,9 +59,27 @@
 
 /* about.html */
 
+#map{
+    width: 100%;
+    
+}
 
 /* portfolio.html */
 
+#branding-section article{
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#design-section{
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#development-section{
+    max-width: 350px;
+    min-width: 200px;
+}
 
 
 /* Media queries */
