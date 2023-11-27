@@ -28,12 +28,14 @@
         </header>
 
         <main>
-            <section>
+            <section id="index-subheading">
                 <h3>Engaging subheading. What can you help your visitors with</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum luctus sapien in convallis. Quisque a imperdiet felis. Curabitur id euismod neque.</p>
             </section>
-            <article>
-                <img src="https://placehold.co/400x400" alt="placeholder-image">
+            <article id="about-our-company">
+                <section>
+                    <img src="https://placehold.co/400x400" alt="placeholder-image">
+                </section>
                 <h3>About Our Company</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum luctus sapien in convallis. Quisque a imperdiet felis. Curabitur id euismod neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum luctus sapien in convallis. Quisque a imperdiet felis. Curabitur id euismod neque.</p>
                 <a id="read-more-about-us-btn" href="about.html">Read more about us</a>
@@ -41,18 +43,22 @@
             <section id="our-services">
                 <h3>Our services</h3>
                 <article id="branding">
+                    <i class="fa-sharp fa-solid fa-users"></i>
                     <h4>Branding</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
                 <article id="design">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
                     <h4>Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
                 <article id="development">
+                    <i class="fa-solid fa-code"></i>
                     <h4>Development</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
                 <article id="support">
+                    <i class="fa-solid fa-wifi"></i>
                     <h4>Support</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </article>
@@ -64,8 +70,8 @@
                 <h3>Sign up for our newsletter</h3>
                 <form>
                     <label for="newsletter-signup" class="hidden">Sign-up for email newsletter</label>
-                    <input type="text" id="newsletter-signup">
-                    <input type="submit" value="Sign me up">
+                    <input type="text" id="newsletter-signup" placeholder="Nora@epost.no">
+                    <input id="sign-me-up-btn" type="submit" value="Sign me up!">
                 </form>
             </section>
             <section id="bottom-banner">
