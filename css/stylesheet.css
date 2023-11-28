@@ -7,6 +7,8 @@
 
 body{
     margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-container{
@@ -53,10 +55,15 @@ header nav section a{
     list-style: none;
     text-align: center;
     height: 20px;
-    width: 55px;
+    width: 70px;
     padding: 10px;
     background-color: #e6bd43;
     font-weight: bold;
+}
+
+#contact-btn:hover{
+    background-color: #000;
+    color: #e6bd43;
 }
 
 main{
@@ -147,6 +154,8 @@ footer{
 }
 
 #about-our-company section{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -392,6 +401,7 @@ footer{
 
 #portfolio-heading h1{
     margin: auto;
+    font-size: xx-large;
 }
 
 #portfolio-main{
@@ -444,6 +454,7 @@ footer{
     list-style: none;
     text-decoration: none;
     color: #000;
+    margin: 10px;
 }
 
 #jobs-section{
@@ -491,6 +502,14 @@ footer{
 
     /* FELLES */
 
+    .grid-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    header{
+        grid-column: span 3;
+    }
+
     header nav{
         display: flex;
         flex-direction: row;
@@ -524,9 +543,80 @@ footer{
         justify-content: left;
     }
 
+    main{
+        grid-column: span 3;
+    }
+
+    footer{
+        grid-column: span 3;
+    }
 
 
+/* Index.htmk */
 
+    #headline{
+        height: 400px;
+    }
+
+    #index-subheading{
+        font-size: x-large;
+    }
+
+    #about-our-company{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: left;
+        padding: 50px;
+    }
+
+    #about-our-company h3, #about-our-company p, #about-our-company a{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: left;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    #about-our-company p{
+        max-width: 100%;
+    }
+
+    #about-our-company section{
+        display: flex;
+        width: 33%;
+        height: 100%;
+        align-items: baseline;
+        margin: 0 0 0 20px;
+    }
+
+    #about-our-company section img{
+        max-width: 100%;
+        width: 400px;
+    }
+
+    #our-services{
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #our-services section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #our-services h3{
+        font-size: xx-large;
+    }
+
+    /* About.html */
+
+    #about-company-header{
+        display: flex;
+        justify-content: right;
+    }
 
 
 
