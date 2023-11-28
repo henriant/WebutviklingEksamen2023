@@ -2,3 +2,7 @@ Jeg har valgt å gå for karakteren B, da dette er noe jeg tror jeg klarer med h
 
 Dokumentasjon benyttet under arbeidet med eksamen:
 - GitHub-repository "WEBUTVIKLING2023" som inneholder kode fra undervisningen dette semesteret. (https://github.com/HIO-Webutvikling/WEBUTVIKLING2023)
+- https://developer.mozilla.org/en-US/docs/Web/CSS/background-position for hjelp til tilpassing av bakgrunnsbilde i index.html
+
+Kilder til bilder:
+- Bakgrunnsbilde til headerområdet i index.html og about.html: Image by Arek Socha from https://pixabay.com/illustrations/lightbulb-bulb-light-idea-energy-1875247/ Pixabay

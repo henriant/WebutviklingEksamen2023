@@ -21,7 +21,8 @@ header{
     width: 100%;
 }
 
-header nav{
+
+header nav section{
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -30,9 +31,10 @@ header nav{
     text-align: center;
     align-items: center;
     width: 100%;
+    margin: 0 0 20px 0;
 }
 
-header nav a{
+header nav section a{
     width: 55px;
     list-style: none;
     text-decoration: none;
@@ -59,6 +61,7 @@ header nav a{
 
 main{
     grid-area: main;
+
 }
 
 footer{
@@ -77,7 +80,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding:  40px;
 }
 
 #bottom-banner ul{
@@ -101,8 +104,10 @@ footer{
 
 #headline{
     display: flex;
-    background-color: #a8a8a8;
     flex-direction: column;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/01/13/10/lightbulb-1875247_960_720.jpg");
+    background-position: right 40% top;  /* Linjen er skrevet med hjelp fra https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
+    background-size: cover;
     align-items: center;
     justify-content: center;
     padding: 30px;
@@ -123,9 +128,6 @@ footer{
 #index-subheading{
     text-align: center;
     padding: 60px 30px;
-}
-
-#index-subheading h3{
 }
 
 #read-more-about-our-services-btn{
@@ -225,6 +227,152 @@ footer{
 
 /* about.html */
 
+#about-company-header{
+    display: flex;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/01/13/10/lightbulb-1875247_960_720.jpg");
+    background-position: right 40% top;  /* Linjen er skrevet med hjelp fra https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
+    background-size: cover;
+    justify-content: center;
+}
+
+#about-company-header article{
+    background-color: rgba(196, 196, 196, 0.795);
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+}
+
+#get-in-touch-btn{
+    background-color: #e6bd43;
+    font-weight: bold;
+    height: 40px;
+    border: solid;
+    border-color: #e6bd43;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+#our-services-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.branding-article{
+    max-width: 300px;
+    margin: 20px;
+}
+
+.branding-article i{
+    font-size: x-large;
+}
+
+#client-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6bd43;
+    padding: 40px 0;
+    margin: 0;
+}
+
+#client-logos1 img{
+    padding: 20px;
+}
+
+#client-logos2{
+    margin: 0 0 40px 0;
+}
+
+#contact-us-section{
+    background: rgb(224, 224, 224);
+    margin: 0;
+    padding: 20px;
+}
+
+#contact-us-section h4{
+    margin: 0;
+    padding: 0;
+}
+
+#contact-us-section h3{
+    text-align: center;
+    margin: 40px 0 50px 0;
+}
+
+#contact-us-section form{
+}
+
+#name-input, #subject-input{
+    border: none;
+    height: 30px;
+    width: 100%;
+} 
+
+#message-input{
+    height: 200px;
+    border: none;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+#send-message-btn{
+    border-radius: 0;
+    border: none;
+    background-color: #e6bd43;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 0 80px 0;
+}
+
+#location{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 20px 0;
+}
+
+#location i{
+    color: #474747;
+}
+
+#location p{
+    margin: 0 15px 0;
+}
+
+#phone{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 20px 0;
+}
+
+#phone i{
+    color: #474747;
+}
+
+#phone p{
+    margin: 0 15px 0;
+}
+
+#hiof-email{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 20px 0;
+}
+
+#hiof-email i{
+    color: #474747;
+
+}
+
+#hiof-email p{
+    margin: 0 15px 0;
+}
+
+
+
 #map{
     width: 100%;
     
@@ -235,12 +383,34 @@ footer{
 #portfolio-heading{
     display: flex;
     justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/01/13/10/lightbulb-1875247_960_720.jpg");
+    background-position: right 40% top;  /* Linjen er skrevet med hjelp fra https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
+    background-size: cover;
     height: 400px;
     width: 100%;
 }
 
 #portfolio-heading h1{
     margin: auto;
+}
+
+#portfolio-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio-main h2{
+    text-align: left;
+    border-bottom: solid;
+    border-bottom-color:#e6bd43;
+    padding: 0 0 15px 0;
+    width: 300px;
+}
+
+#portfolio-main p{
+    font-weight: bold;
+    text-align: left;
 }
 
 #explore-previous-jobs-section{
@@ -250,17 +420,16 @@ footer{
 }
 
 #explore-previous-jobs-h2{
-    border-bottom: solid;
-    border-bottom-color:#e6bd43;
     width: 300px;
 }
 
 #explore-previous-jobs-section ul{
-    margin: 50px;
+    margin: 50px auto;
     width: 100%;
 }
 
 #explore-previous-jobs-section ul li{
+    display: inline-block;
     border: solid;
     border-color: #000;
     margin: 5px;
@@ -268,7 +437,7 @@ footer{
     height: 40px;
     width: 130px;
     text-align: center;
-    float: left;
+    align-self: center;
 }
 
 #explore-previous-jobs-section ul li a{
@@ -277,22 +446,92 @@ footer{
     color: #000;
 }
 
-#branding-section article{
+#jobs-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 692px;
+}
+
+#branding-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     max-width: 350px;
     min-width: 200px;
+    margin: 0 0 30px 0;
 }
 
 #design-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     max-width: 350px;
     min-width: 200px;
+    margin: 0 0 30px 0;
 }
 
 #development-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     max-width: 350px;
     min-width: 200px;
+    margin: 0 0 30px 0;
+}
+
+.large-img, .small-img{
+    width: 300px;
+    height: 300px;
 }
 
 
 /* Media queries */
 @media only screen and (min-width: 850px) {
+
+    /* FELLES */
+
+    header nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    header nav section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 20px;
+    }
+
+    #menu-buttons{
+        display: flex;
+        justify-content: right;
+    }
+
+    #menu-buttons a{
+        font-size: large;
+    }
+
+    #menu-buttons a:hover{
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: #e6bd43;
+
+    }
+
+    #logo-corner{
+        display: flex;
+        justify-content: left;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
