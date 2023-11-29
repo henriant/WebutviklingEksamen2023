@@ -1,8 +1,22 @@
-Jeg har valgt å gå for karakteren B, da dette er noe jeg tror jeg klarer med hardt arbeid.
+
+
+Jeg har valgt å gå for karakteren C, da disse kravene er noe jeg vet jeg kan oppfylle.
+
+Kommentarer:
+
+- Under C-kravet står det nederst at "siden skal ha en maks bredde på 1600px". Jeg oppfatter dette punktet som uklart, fordi i kontekst av linjene over kan det virke som det kun refereres til
+  portfolio-siden. Skal kun denne siden ha en maks bredde på 1600px? Det virker usannsynlig at en side skal være smalere enn de andre. Jeg velger allikevel å gjøre det, siden oppgaven ber om det.
+
+- Under minstekravet står det noe som gjør oppgaven litt selvmotsigende. Det står at alle artikkelkortene på portfolio-siden skal ha en maks bredde på 350px. Mens i demo-videoen og skissene
+  skal siden flere steder ha artikkelkort som er større (".large-img" i min kode). Hvis disse også skal ha en maks bredde på 350px, så vil jo alle bli like store. Jeg kan ikke krympe de små bildene,
+  for da vil ikke utseendet og proporsjonene på siden min tilsvare slik det er vist på demo-videoen. Jeg velger derfor å gjøre slik oppgaven sier - at de skal værepå maks 350px.
+  Men jeg er klar over at det muligens finnes en alternativ løsning. 
+
+
 
 Dokumentasjon benyttet under arbeidet med eksamen:
 - GitHub-repository "WEBUTVIKLING2023" som inneholder kode fra undervisningen dette semesteret. (https://github.com/HIO-Webutvikling/WEBUTVIKLING2023)
 - https://developer.mozilla.org/en-US/docs/Web/CSS/background-position for hjelp til tilpassing av bakgrunnsbilde i index.html
 
 Kilder til bilder:
-- Bakgrunnsbilde til headerområdet i index.html og about.html: Image by Arek Socha from https://pixabay.com/illustrations/lightbulb-bulb-light-idea-energy-1875247/ Pixabay
+- Bakgrunnsbilde til headerområdet på alle sidene: Image by Arek Socha from https://pixabay.com/illustrations/lightbulb-bulb-light-idea-energy-1875247/ Pixabay

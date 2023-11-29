@@ -45,9 +45,14 @@ header nav section a{
     color: #000;
 }
 
+#logo-corner a{
+    width: 100px;
+}
+
 .logobilde{
     width: 75px;
     height: 75px;
+    padding: 0;
 }
 
 #contact-btn{
@@ -121,10 +126,11 @@ footer{
 }
 
 #headline h1{
-    width: 300px;
+    max-width: 300px;
     text-align: center;
     height: 20px;
     font-size: xx-large;
+    margin: 60px;
 }
 
 #headline p{
@@ -144,6 +150,11 @@ footer{
     list-style: none;
     text-decoration: none;
     font-weight: bold;
+}
+
+#read-more-about-our-services-btn:hover{
+    color:#e6bd43;
+    background-color: #000;
 }
 
 #about-our-company{
@@ -176,8 +187,14 @@ footer{
     font-weight: bold;
     border-style: solid;
     border-color: #000;
+    border-spacing: 40px;
     padding: 15px;
     margin: 20px 20px 70px 20px;
+}
+
+#read-more-about-us-btn:hover{
+    color:#e6bd43;
+    background-color: #000;
 }
 
 #our-services{
@@ -337,6 +354,11 @@ footer{
     margin: 0 0 80px 0;
 }
 
+#send-message-btn:hover{
+    color:#e6bd43;
+    background-color: #000;
+}
+
 #location{
     display: flex;
     flex-direction: row;
@@ -415,7 +437,7 @@ footer{
     border-bottom: solid;
     border-bottom-color:#e6bd43;
     padding: 0 0 15px 0;
-    width: 300px;
+    min-width: 300px;
 }
 
 #portfolio-main p{
@@ -430,7 +452,7 @@ footer{
 }
 
 #explore-previous-jobs-h2{
-    width: 300px;
+    max-width: 300px;
 }
 
 #explore-previous-jobs-section ul{
@@ -447,14 +469,13 @@ footer{
     height: 40px;
     width: 130px;
     text-align: center;
-    align-self: center;
 }
 
 #explore-previous-jobs-section ul li a{
     list-style: none;
     text-decoration: none;
     color: #000;
-    margin: 10px;
+    margin: 20px;
 }
 
 #jobs-section{
@@ -551,6 +572,12 @@ footer{
         grid-column: span 3;
     }
 
+    #bottom-banner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 
 /* Index.htmk */
 
@@ -595,6 +622,11 @@ footer{
         max-width: 100%;
         width: 400px;
     }
+    
+    #read-more-about-us-btn:hover{
+        color:#e6bd43;
+        background-color: #000;
+    }
 
     #our-services{
         display: inline-flex;
@@ -617,6 +649,172 @@ footer{
         display: flex;
         justify-content: right;
     }
+
+    #get-in-touch-btn:hover{
+        color:#e6bd43;
+        background-color:#000;
+        border-color:#000;
+    }
+    
+    #our-services-section{
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #our-services-section section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #our-services-section h2{
+        font-size: xx-large;
+    }
+
+    #contact-us-section{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    #message-and-information{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #message-form{
+        width: 50%;
+        margin: 20px;
+    }
+
+    #contact-information{
+        width: 50%;
+        margin: 20px;
+    }
+
+
+    /* Portfolio.html */
+
+    #portfolio-body{
+        max-width: 1600px;
+    }
+
+    #portfolio-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: baseline;
+        padding: 30px;
+        max-width: 1600px;
+    }
+
+    #explore-previous-jobs-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: baseline;
+        width: 100%;
+        max-width: 1600px;
+    }
+
+    #explore-previous-jobs-section ul{
+        padding: 0;
+        margin: 0;
+        max-width: 1600px;
+    }
+
+    #explore-previous-jobs-h2{
+        display: flex;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-basis: 0;
+        flex-grow: 1;
+        min-width: 100%;
+    }
+
+    #explore-previous-jobs-h2 h2{
+        min-width: 100%;
+    }
+
+    #jobs-section{
+        display: flex;
+        max-width: 1600px;
+        width: 100%;
+        align-items: baseline;
+    }
+
+    #jobs-section article{
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        min-width: 200px;
+        align-items: baseline;
+
+    }
+
+    #jobs-section h2{
+        min-width: 100%;
+    }
+
+    #branding-section{
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+
+    .small-img-row{
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+ 
+    }
+
+    .small-img{
+        display: flex;
+        flex-basis: 0;
+        flex-grow: 2;
+        flex-shrink: 2;
+    }
+
+    .large-img-2row{
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .large-img-row{
+        min-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .large-img{
+        width: 500px;
+        height: 500px;
+    }
+
+    #design-section{
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+
+    #development-section{
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        justify-content: space-evenly;
+    }
+
+
+
+    
 
 
 
