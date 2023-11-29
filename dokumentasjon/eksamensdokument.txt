@@ -23,3 +23,6 @@ Dokumentasjon benyttet under arbeidet med eksamen:
 
 Kilder til bilder:
 - Bakgrunnsbilde til headerområdet på alle sidene: Image by Arek Socha from https://pixabay.com/illustrations/lightbulb-bulb-light-idea-energy-1875247/ Pixabay
+
+Andre kilder:
+- Ikoner og alt annet i mappen css/fontawesome er hentet fra Font Awesome ( https://fontawesome.com/ )

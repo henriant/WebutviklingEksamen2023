@@ -470,7 +470,7 @@ footer{
 }
 
 #explore-previous-jobs-section ul li{
-    display: inline-block;
+    display: inline-flex;
     border: solid;
     border-color: #000;
     margin: 5px;
@@ -480,11 +480,18 @@ footer{
     text-align: center;
 }
 
+#explore-previous-jobs-section ul li a:hover{
+    color:#e6bd43;
+    background-color: #000;
+}
+
 #explore-previous-jobs-section ul li a{
     list-style: none;
     text-decoration: none;
     color: #000;
-    margin: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 #jobs-section{
