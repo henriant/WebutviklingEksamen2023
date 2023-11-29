@@ -320,6 +320,7 @@ footer{
 
 #client-logos2{
     margin: 0 0 40px 0;
+    text-align: center;
 }
 
 #contact-us-section{
@@ -679,6 +680,18 @@ footer{
         color:#e6bd43;
         background-color:#000;
         border-color:#000;
+    }
+
+    #client-logos section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #client-logos2{
+        margin: 0;
+        padding: 20px; 
+        text-align: center;
     }
     
     #our-services-section{
