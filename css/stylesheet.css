@@ -447,22 +447,27 @@ footer{
     border-bottom: solid;
     border-bottom-color:#e6bd43;
     padding: 0 0 15px 0;
-    min-width: 300px;
+    min-width: 100%;
 }
 
 #portfolio-main p{
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 #explore-previous-jobs-section{
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 #explore-previous-jobs-h2{
-    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin: 0 0 0 30px;
+
 }
 
 #explore-previous-jobs-section ul{
@@ -499,7 +504,11 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 692px;
+    min-width: 100%;
+}
+
+#jobs-section h2{
+    min-width: 100%;
 }
 
 #jobs-section article{
@@ -515,8 +524,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 350px;
-    min-width: 200px;
+    min-width: 100%;
     margin: 0 0 30px 0;
 }
 
@@ -524,8 +532,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 350px;
-    min-width: 200px;
+    min-width: 100%;
     margin: 0 0 30px 0;
 }
 
@@ -533,16 +540,15 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 350px;
-    min-width: 200px;
+    min-width: 100%;
     margin: 0 0 30px 0;
 }
 
 .large-img, .small-img{
     width: 300px;
     height: 300px;
+    margin: 60px 0;
 }
-
 
 /* Media queries */
 @media only screen and (min-width: 850px) {
