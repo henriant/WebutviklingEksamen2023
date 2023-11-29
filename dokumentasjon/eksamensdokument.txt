@@ -1,6 +1,6 @@
 
 
-Jeg har valgt å gå for karakteren C, da disse kravene er noe jeg vet jeg kan oppfylle.
+Jeg har valgt å gå for karakteren C, da disse kravene er noe jeg vet jeg kan oppfylle. Jeg velger allikevel å gjøre det jeg får til og rekker av krav til karakter B.
 
 Kommentarer:
 
@@ -12,11 +12,14 @@ Kommentarer:
   for da vil ikke utseendet og proporsjonene på siden min tilsvare slik det er vist på demo-videoen. Jeg velger derfor å gjøre slik oppgaven sier - at de skal værepå maks 350px.
   Men jeg er klar over at det muligens finnes en alternativ løsning. 
 
+- Noe som ikke ble helt løst var å innføre flex-grow på artikkelkortene i portfolio-siden. 
+
 
 
 Dokumentasjon benyttet under arbeidet med eksamen:
 - GitHub-repository "WEBUTVIKLING2023" som inneholder kode fra undervisningen dette semesteret. (https://github.com/HIO-Webutvikling/WEBUTVIKLING2023)
 - https://developer.mozilla.org/en-US/docs/Web/CSS/background-position for hjelp til tilpassing av bakgrunnsbilde i index.html
+- https://www.w3schools.com/howto/howto_css_zoom_hover.asp for hjelp til forstørring av artikkelkort i portfolio.html
 
 Kilder til bilder:
 - Bakgrunnsbilde til headerområdet på alle sidene: Image by Arek Socha from https://pixabay.com/illustrations/lightbulb-bulb-light-idea-energy-1875247/ Pixabay

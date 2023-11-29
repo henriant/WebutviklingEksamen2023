@@ -1,6 +1,9 @@
 
 
 /* Felles */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+
 .hidden{
     display: none;
 }
@@ -8,7 +11,7 @@
 body{
     margin: 0;
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway';
 }
 
 .grid-container{
@@ -251,6 +254,12 @@ footer{
     padding: 0;
 }
 
+#sign-me-up-btn:hover{
+    color:#e6bd43;
+    background-color: #000;
+    border-color: #000;
+}
+
 /* about.html */
 
 #about-company-header{
@@ -484,6 +493,15 @@ footer{
     align-items: center;
     max-width: 692px;
 }
+
+#jobs-section article{
+    transition: transform 0.5s;
+}
+
+#jobs-section article:hover{
+    transform: scale(1.3); 
+}
+
 
 #branding-section{
     display: flex;
@@ -749,6 +767,7 @@ footer{
         max-width: 350px;
         min-width: 200px;
         align-items: baseline;
+        margin: 50px;
 
     }
 
@@ -778,7 +797,9 @@ footer{
         flex-basis: 0;
         flex-grow: 2;
         flex-shrink: 2;
+        transition: transform .2s;
     }
+
 
     .large-img-2row{
         min-width: 100%;
@@ -794,10 +815,6 @@ footer{
         justify-content: left;
     }
 
-    .large-img{
-        width: 500px;
-        height: 500px;
-    }
 
     #design-section{
         display: flex;
